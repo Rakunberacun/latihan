@@ -4,127 +4,60 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
   </head>
 
     <body>
-        <style>
-          body{
-            background-color: whitesmoke;
-            margin: 0;
-            padding: 0;
-          }
-          .navbar{
-            display: flex;
-            width: 100%;
-            justify-content: space-evenly;
-            padding: 0 0px 0 0px ; 
-            background-color:  #07452a;
-            height: 40px;
-            align-items: center ;
-            font-family: 'futura', futura-bold;
-            font-size: larger;
-            color: white;
-          }
-          .LOGO-PANDAWA{
-            width: 3%;
-          }
-          .LOGO{
-            font-size: 25pt;
-          }
-          .Home{
-            background-color: rgb(130, 12, 12);
-            font-size: large;
-            font-family: 'futura md bt';
-            padding: 5px 0 150px 0;
-            color: white;
-          }
-
-          .text{
-            margin: 10px;
-
-          }
-          .Footer{
-            background-color:  #07452a;
-            font-size: large;
-            font-family: 'futura md bt';
-            padding: 10px;
-            color: white;
-          }
-          .SEKOLAH{
-            display: flex;
-            justify-content: center;
-            padding:0 0 0 0;
-            height:20%
-          }
-          .SEKOLAH-1{
-            width: 60%;
-            justify-content: center;
-          }
-          .TEKS-TENGAH {
-            position: absolute;
-            top: 35%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 40px;
-            font-family: 'futura', futura-bold;
-            color: white;
-          }
-          .TEKS-TENGAH-1 {
-            position: absolute;
-            top: 45%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 40px;
-            font-family: 'futura', futura-bold;
-            color: white;
-          }
-        
-        </style>
-      
       <!-- NAVBAR -->
       <div class="navbar">
         <img src="LOGO PANDAWA.png" class="LOGO-PANDAWA">
         <a class="LOGO"> SMKN 19 JAKARTA </a>
-        <a> PROFIL </a>
-        <a> BLOG </a>
-        <a> GALERI </a>
-        <a> JURUSAN </a>
-        <a href="https://www.instagram.com/rakanysr"> @RAKANYSR</a>
+        <ul class="menu">
+        <li><a> PROFIL </a></li>
+        <li><a> BLOG </a></li>
+        <li><a> GALERI </a></li>
+        <li><a> JURUSAN </a></li>
+        <!-- <li><a href="https://www.instagram.com/rakanysr"> @RAKANYSR</a></li> -->
+        </ul>
       </div>
       
       <!-- ISI -->
       <div class="SEKOLAH">
         <!-- <img src="SEKOLAH DAGANG.png"  class="SEKOLAH-1" > -->
         <img src="SEKOLAH DAGANG2.png" class="SEKOLAH-1">
-        <div class="TEKS-TENGAH">WELCOME TO SMKN 19</div>
-        <div class="TEKS-TENGAH-1">JAKARTA</div>
+        <div class="TEKS-TENGAH"><p>WELCOME TO SMKN 19</p></div>
+        <div class="TEKS-TENGAH-1"><p>JAKARTA</p></div>
       </div>
       </div>
           <div class="Home">
-          <p class="text">
+          <h2 class="text">
             VISI
-            ”Terwujudnya Sumber Daya Manusia 
+          </h2>
+           <p class="text">”Terwujudnya Sumber Daya Manusia 
             yang Bertaqwa, Cerdas, Terampil, Unggul dan 
-            Berwawasan Lingkungan.“
-          </p>
-          <p class="text">
+            Berwawasan Lingkungan.“</p> 
+          
+          <h2 class="text">
             MISI
-            -Meningkatkan kualitas keimanan, ketaqwaan, dan ahlak mulia.
-            -Menumbuhkembangkan semangat berprestasi dan berkompetisi.
-            -Menyiapkan siswa yang bermutu sesuai dengan program keahliannya.
-            -Meningkatkan profesionalitas dan kompetensi guru dengan mengembangkan
-             KBM sesuai dengan kebutuhan Dunia Usaha dan Industri.
-            -Mewujudkan warga sekolah yang peduli terhadap lingkungan dengan 
-             meningkatkan kualitas 7K (Keamanan, Ketertiban, Kebersihan, Keindahan, 
-             Kerindangan, Keamanan dan Kekeluargaan)
-          </p>
+          </h2>
+             <ul>
+              <li>Meningkatkan kualitas keimanan, ketaqwaan, dan ahlak mulia.</li>
+              <li>Menumbuhkembangkan semangat berprestasi dan berkompetisi.</li>
+              <li>Menyiapkan siswa yang bermutu sesuai dengan program keahliannya.</li>
+              <li>Meningkatkan profesionalitas dan kompetensi guru dengan mengembangkan 
+                KBM sesuai dengan kebutuhan Dunia Usaha dan Industri.</li>
+              <li>Mewujudkan warga sekolah yang peduli terhadap lingkungan dengan 
+                meningkatkan kualitas 7K (Keamanan, Ketertiban, Kebersihan, Keindahan, 
+                Kerindangan, Keamanan dan Kekeluargaan)</li>
+             </ul>
+         
         </div>
       
   </body>
 
   <footer class="Footer">
     <p>Jl. Danau Limboto No.11, RT.21/RW.4, Bend. Hilir, Kecamatan Tanah Abang, 
-      Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10210</p>
-   
+      Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10210, <a href="https://www.instagram.com/rakanysr" class="insta"> @RAKANYSR</a> </p>
+
   </footer>
 </html>
