@@ -15,6 +15,14 @@ body{
     font-size: larger;
     color: white;
   }
+  .navbar a{
+    text-decoration: none;
+    color: white;
+  }
+  .navbar li{
+    text-decoration: none;
+    color: white;
+  }
   .menu{
     display: flex;
     width: 100%;
@@ -28,12 +36,10 @@ body{
     color: white;
     float: right;
     margin-left: 00px;
-    
-
     list-style-type: none;
   }
   .LOGO-PANDAWA{
-    width: 3%;
+    width: 3%;  
   }
   .LOGO{
     font-size: 10pt;
@@ -52,7 +58,6 @@ body{
   }
   .Footer{
     background-color:  #07452a;
-    font-size: large;
     font-family: 'futura md bt';
     padding: 10px;
     color: white;
@@ -85,6 +90,6 @@ body{
     font-family: 'futura', futura-bold;
     color: white;
   }
-.insta{
-  font-family: 'futura', futura-bold;
+  .insta{
+    font-family: 'futura', futura-bold;
 }
