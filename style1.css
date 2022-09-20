@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-    background-color: whitesmoke;
+    background-color: rgb(130, 12, 12);
     margin: 0;
     padding: 0;
 }
@@ -41,6 +41,8 @@ a {
 .menu a:hover{
     text-decoration: underline;
     color: yellow ;
+    position:relative;
+    top:-5px;
 }
 .LOGO-PANDAWA{
     width: 3%;  
@@ -60,11 +62,14 @@ a {
     /* padding: 1080px 0 100px 0; */
     background-image: url(SEKOLAH\ DAGANG2.png);
     background-size: cover;
+    /* border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px; */
     width: 100%;
     height: 100%;
     color: white;
     text-align: center;
     padding-top: 2%;
+    
 }
 .top-wrapper h1 {
     font-size: 70px;
@@ -115,21 +120,27 @@ a {
 .btn-signup:hover {
     background-color: yellow;
     color: black;
+    position:relative;
+    top:-5px;
 }
 .btn-facebook:hover {
     background-color: yellow;
     color: black;
+    position:relative;
+    top:-5px;
 }
 .btn-twitter:hover {
     background-color: yellow;
     color: black;
+    position:relative;
+    top:-5px;
 }
 .Home{
     background-color: rgb(130, 12, 12);
     font-family: 'Montserrat', sans-serif;
     color: white;
     padding: 2% 0 4% 0;
-    margin-top: 100px;
+    margin-top: 140px;
     align-items: center;
     text-align: left;
     padding: 10px;
@@ -192,4 +203,12 @@ a {
     -webkit-column-count: 3;
     column-count: 3;
     padding-left: 10px;
+}
+.footer{
+    background-color: #07452a   ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 10px;
+    padding: 5px;
 }
