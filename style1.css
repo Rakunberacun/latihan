@@ -182,7 +182,7 @@ form .btn-login{
     border-radius: 20px;
     padding: 6px;
 }
-.btn-signup:hover {
+.btn-show:hover {
     background-color: yellow;
     color: black;
     position:relative;
