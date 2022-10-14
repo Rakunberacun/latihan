@@ -90,7 +90,71 @@ a {
     font-size: 50px;
     /* margin-bottom: 6px; */
     padding-bottom: 6px;
-    
+}
+input[type="checkbox"]{
+   display: none;
+}
+.kandungan{
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: #ffffff;
+   width: 410px;
+   padding: 30px;
+   font-family: 'Kanit', sans-serif;
+   box-shadow: 0 0 50pxpx rgb(0, 0, 0);
+   border-radius: 25px;
+   display: none;
+  }
+  #show:checked ~ .kandungan{
+   display: block;
+  }
+
+  .fa-rectangle-xmark{
+   position: absolute;
+   right: 10px;
+   top: 10px;
+   cursor: pointer;
+   
+  }
+  .fa-rectangle-xmark:hover{
+   color: rgb(158, 147, 147);
+  }
+.text{
+text-align: center;
+font-weight: 600;
+font-size: 20pt;
+}
+.Login form .data {
+   height: 45px;
+   width: 100%;
+   margin: 40px 0;
+}
+form .data label{
+   font-size: 20px;
+}
+.forgot{
+   color: aqua;
+   font-size: medium;
+   text-decoration: underline;
+}
+form .data input{
+   height: 100%;
+   width: 100%;
+   font-size: 25px;
+}
+
+form .btn-login{
+   text-align: center;
+   width: 100%;
+   position: relative;
+   font-family: 'Kanit', sans-serif;
+   height: 100%;
+   padding-top: 40px;
+}
+.btn .kandungan{
+   color: black;
 }
 .btn {
     font-family: 'Montserrat', sans-serif;
@@ -102,7 +166,7 @@ a {
 .btn p{
     margin-bottom: 10px;
 }
-.btn-signup {
+.btn-show {
     background-color: rgb(130, 12, 12);
     border-radius: 20px;
     padding: 6px;
