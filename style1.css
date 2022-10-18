@@ -4,7 +4,6 @@ body {
     background-color: rgb(130, 12, 12);
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
 }
 a {
     text-decoration: none;
@@ -46,7 +45,7 @@ a {
     top:-5px;
 }
 .LOGO-PANDAWA{
-    width: 2%;  
+    width: 3%;  
 }
 .LOGO{
     font-size: 10pt;
@@ -163,6 +162,7 @@ form .btn-login{
     padding: 0px 24px;
     display: inline-block;
     border-radius: 4px;
+	
 }
 .btn p{
     margin-bottom: 10px;
@@ -171,35 +171,44 @@ form .btn-login{
     background-color: rgb(130, 12, 12);
     border-radius: 20px;
     padding: 6px;
+	 box-shadow: 0 6px rgb(100, 4, 12);
+	 transition: 0.4s
 }
 .btn-facebook {
     background-color:rgb(130, 12, 12);
     margin-right: 10px;
     border-radius: 20px;
     padding: 6px;
+	 box-shadow: 0 6px rgb(100, 4, 12);
+	 transition: 0.4s
 }
 .btn-twitter {
     background-color: rgb(130, 12, 12);
     border-radius: 20px;
     padding: 6px;
+	 box-shadow: 0 6px rgb(100, 4, 12);
+	 transition: 0.4s
 }
-.btn-show:hover {
-    background-color: yellow;
-    color: black;
-    position:relative;
-    top:-5px;
+.btn-signup:hover {
+    background-color: red;
 }
 .btn-facebook:hover {
-    background-color: yellow;
-    color: black;
-    position:relative;
-    top:-5px;
+    background-color: red;
 }
 .btn-twitter:hover {
-    background-color: yellow;
-    color: black;
-    position:relative;
-    top:-5px;
+    background-color: red;
+}
+.btn-show:active {
+	 transform: translateY(4px);
+	 box-shadow: 2px
+}
+.btn-facebook:active {
+	 transform: translateY(4px);
+	 box-shadow: 2px
+}
+.btn-twitter:active {
+	 transform: translateY(4px);
+	 box-shadow: 2px
 }
 .Home{
     background-color: rgb(130, 12, 12);
