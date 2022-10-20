@@ -172,7 +172,7 @@ form .btn-login{
     border-radius: 20px;
     padding: 6px;
 	 box-shadow: 0 6px rgb(100, 4, 12);
-	 transition: 0.4s
+	 transition: 0.4s;
 }
 .btn-facebook {
     background-color:rgb(130, 12, 12);
@@ -180,16 +180,16 @@ form .btn-login{
     border-radius: 20px;
     padding: 6px;
 	 box-shadow: 0 6px rgb(100, 4, 12);
-	 transition: 0.4s
+	 transition: 0.4s;
 }
 .btn-twitter {
     background-color: rgb(130, 12, 12);
     border-radius: 20px;
     padding: 6px;
 	 box-shadow: 0 6px rgb(100, 4, 12);
-	 transition: 0.4s
+	 transition: 0.4s;
 }
-.btn-signup:hover {
+.btn-show:hover {
     background-color: red;
 }
 .btn-facebook:hover {
@@ -200,15 +200,15 @@ form .btn-login{
 }
 .btn-show:active {
 	 transform: translateY(4px);
-	 box-shadow: 2px
+	 box-shadow: 2px;
 }
 .btn-facebook:active {
 	 transform: translateY(4px);
-	 box-shadow: 2px
+	 box-shadow: 2px;
 }
 .btn-twitter:active {
 	 transform: translateY(4px);
-	 box-shadow: 2px
+	 box-shadow: 2px;
 }
 .Home{
     background-color: rgb(130, 12, 12);
