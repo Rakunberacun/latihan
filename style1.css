@@ -26,7 +26,7 @@ a {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 0 10px 0 700px ; 
+    padding: 0 10px 0 60% ; 
     background-color:  #07452a;
     height: 40px;
     align-items: center ;
@@ -45,7 +45,7 @@ a {
     top:-5px;
 }
 .LOGO-PANDAWA{
-    width: 3%;  
+    width: 2%;  
 }
 .LOGO{
     font-size: 10pt;
@@ -89,7 +89,7 @@ a {
 .daftarkan{
     font-size: 50px;
     /* margin-bottom: 6px; */
-    padding-bottom: 6px;
+    padding-bottom: 10px;
 }
 input[type="checkbox"]{
    display: none;
@@ -102,10 +102,11 @@ input[type="checkbox"]{
    background: #ffffff;
    width: 410px;
    padding: 30px;
-   font-family: 'Kanit', sans-serif;
-   box-shadow: 0 0 50pxpx rgb(0, 0, 0);
+   font-family: 'Montserrat', sans-serif;
+   box-shadow: 0 0 50px rgb(116, 116, 116);
    border-radius: 25px;
    display: none;
+   color: black;
   }
   #show:checked ~ .kandungan{
    display: block;
@@ -115,6 +116,7 @@ input[type="checkbox"]{
    position: absolute;
    right: 10px;
    top: 10px;
+   height: 25px;
    cursor: pointer;
    
   }
@@ -123,6 +125,7 @@ input[type="checkbox"]{
   }
 .text{
 text-align: center;
+font-family: 'Montserrat', sans-serif;
 font-weight: 600;
 font-size: 20pt;
 }
@@ -130,9 +133,11 @@ font-size: 20pt;
    height: 45px;
    width: 100%;
    margin: 40px 0;
+   font-family: 'Montserrat', sans-serif;
 }
 form .data label{
    font-size: 20px;
+   font-weight: 600;
 }
 .forgot{
    color: aqua;
@@ -149,73 +154,47 @@ form .btn-login{
    text-align: center;
    width: 100%;
    position: relative;
-   font-family: 'Kanit', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    height: 100%;
-   padding-top: 40px;
+   padding-top: 70px;
 }
 .btn .kandungan{
    color: black;
 }
-.btn {
+.btn-wrapper {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    padding: 0px 24px;
-    display: inline-block;
+    padding: 0px 4px;
     border-radius: 4px;
 	
 }
-.btn p{
+.btn-wrapper p{
     margin-bottom: 10px;
 }
-.btn-show {
+.btn {
     background-color: rgb(130, 12, 12);
     border-radius: 20px;
     padding: 6px;
 	 box-shadow: 0 6px rgb(100, 4, 12);
-	 transition: 0.4s;
+	 transition: 0.4s;   
+     margin-right: 10px;
+     display: inline-block;
+    overflow: hidden;
+    transition: 0.2s;
 }
-.btn-facebook {
-    background-color:rgb(130, 12, 12);
-    margin-right: 10px;
-    border-radius: 20px;
-    padding: 6px;
-	 box-shadow: 0 6px rgb(100, 4, 12);
-	 transition: 0.4s;
-}
-.btn-twitter {
-    background-color: rgb(130, 12, 12);
-    border-radius: 20px;
-    padding: 6px;
-	 box-shadow: 0 6px rgb(100, 4, 12);
-	 transition: 0.4s;
-}
-.btn-show:hover {
+.btn:hover {
     background-color: red;
 }
-.btn-facebook:hover {
-    background-color: red;
-}
-.btn-twitter:hover {
-    background-color: red;
-}
-.btn-show:active {
-	 transform: translateY(4px);
-	 box-shadow: 2px;
-}
-.btn-facebook:active {
-	 transform: translateY(4px);
-	 box-shadow: 2px;
-}
-.btn-twitter:active {
-	 transform: translateY(4px);
-	 box-shadow: 2px;
+.btn:active {
+	 box-shadow: 0 2px rgb(70, 3, 8);
+     transform: translateY(4px);
 }
 .Home{
     background-color: rgb(130, 12, 12);
     font-family: 'Montserrat', sans-serif;
     color: white;
     padding: 2% 0 4% 0;
-    margin-top: 80px;
+    margin-top: 250px;
     align-items: center;
     text-align: left;
     padding: 10px;
@@ -290,4 +269,26 @@ form .btn-login{
     text-align: left;
     padding-left: 10px;
     padding: 5px;
+}
+
+.login-box{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 20px 40px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #07452a;
+    opacity: 0.8;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-box:hover{
+    transition: 0.2s;
+    opacity: 1;
+    background-color: #239664;
 }
