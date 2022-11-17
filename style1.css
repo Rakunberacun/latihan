@@ -194,10 +194,10 @@ form .btn-login{
     font-family: 'Montserrat', sans-serif;
     color: white;
     padding: 2% 0 4% 0;
-    margin-top: 250px;
+    margin-top: 30px;
     align-items: center;
     text-align: left;
-    padding: 10px;
+    padding: 10px;  
     
     
 }
@@ -221,7 +221,7 @@ form .btn-login{
 .artikel{
     padding-left: 10px;
     margin-right: 10px;
-    
+    align-items: center;
 }
 .artikel-teks{
     margin: 0px;
@@ -243,6 +243,7 @@ form .btn-login{
     padding-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+    
 }
 .submit{
     background-color: whitesmoke;
@@ -269,6 +270,7 @@ form .btn-login{
     text-align: left;
     padding-left: 10px;
     padding: 5px;
+    color: white;
 }
 
 .login-box{
@@ -291,4 +293,10 @@ form .btn-login{
     transition: 0.2s;
     opacity: 1;
     background-color: #239664;
+}
+
+.foto{
+    width: 800px;
+    float: right;
+    padding-right: 20px;
 }
