@@ -4,6 +4,10 @@ body {
     background-color: rgb(130, 12, 12);
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
 }
 a {
     text-decoration: none;
@@ -60,7 +64,8 @@ a {
 
 .top-wrapper {
     /* padding: 1080px 0 100px 0; */
-    background-image: url(SEKOLAH\ DAGANG2.png);
+    background-image: url(pdw\ blur.png);
+    background-size: 50%;
     background-size: cover;
     /* border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px; */
@@ -123,11 +128,12 @@ input[type="checkbox"]{
   .fa-rectangle-xmark:hover{
    color: rgb(158, 147, 147);
   }
-.text{
+.text {
 text-align: center;
 font-family: 'Montserrat', sans-serif;
 font-weight: 600;
 font-size: 20pt;
+font-style: normal;
 }
 .Login form .data {
    height: 45px;
@@ -194,20 +200,33 @@ form .btn-login{
     font-family: 'Montserrat', sans-serif;
     color: white;
     padding: 2% 0 4% 0;
-    margin-top: 30px;
+    margin-top: 10px;
     align-items: center;
     text-align: left;
     padding: 10px;  
-    
-    
+}
+.Homeindex{
+    background-color: rgb(130, 12, 12);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 2% 0 4% 0;
+    margin-top: 70px;
+    align-items: center;
+    text-align: left;
+    padding: 10px;  
 }
 .Home p {
     font-weight: 500;
     padding-left: 15px;
-    
-    
 }
 .Home li {
+    font-weight: 500;
+}
+.Homeindex p {
+    font-weight: 500;
+    padding-left: 15px;
+}
+.Homeindex li {
     font-weight: 500;
 }
 .text{
@@ -231,12 +250,14 @@ form .btn-login{
     border-style: solid;
     border-radius: 40px;
 }
-.kontak{
+.titlekontak{
     margin: 0px;
     border: white;
     border-style: none none solid none;
     padding: 10px;
     font-weight: 700;
+    color: white;
+    
 }
 .contact-form{
     padding-top: 20px;
@@ -294,9 +315,47 @@ form .btn-login{
     opacity: 1;
     background-color: #239664;
 }
-
+/* Untuk Profil */
 .foto{
-    width: 800px;
+    width: 1010px;
     float: right;
     padding-right: 20px;
+}
+.googlemaps {
+    margin-left: 20px;
+}
+
+/* Untuk Galeri */
+.title{
+    margin: 0px;
+    border: white;
+    border-style: none none solid none;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.containerfoto{
+    margin:50px 40px 0 40px;
+}
+
+.containerfoto .box{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between; 
+}
+
+.containerfoto .box-img{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.containerfoto .box .box-img .img{
+    padding-bottom: 15px;
+
+}
+.img:hover{
+    position:relative;
+    top:-6px;
 }
