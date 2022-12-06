@@ -3,172 +3,166 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>SMKN 19 JAKARTA</title>
     <link rel="icon" href="LOGO PANDAWA.png">
 </head>
-<body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-        <img src="LOGO PANDAWA.png" class="LOGO-PANDAWA">
-        <a class="LOGO"> SMKN 19 JAKARTA </a>
 
-        <ul class="menu">
-        <li><a href="profil.html"> PROFIL </a></li>
-        <li><a href="BLOG.html"> BLOG </a></li>
-        <li><a href="galeri.html"> GALERI </a></li>
-        <li><a href="#"> JURUSAN </a></li>
-        <!-- <li><a href="https://www.instagram.com/rakanysr"> @RAKANYSR</a></li> -->
-        </ul>
-    </div>
+<header class="header">
+    <img src="LOGO PANDAWA.png" class="LOGO">
+    <a href="index.html" class="LOGO"> SMKN 19 JAKARTA </a>
+    
+        
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="profil.html">Profil</a></li>
+      <li><a href="galeri.html">Galeri</a></li>
+      <li><a href="BLOG.html">Kegiatan</a></li>
+      <li><a href="#">Guru</a></li>
+      <li><a href="#">Jurusan</a></li> 
+    </ul>
+</header>
+
+<body>
 
     <div class="top-wrapper">
-    <div class="container">
-        <h1>WELCOME TO</h1>
-        <h1>SMKN 19 JAKARTA</h1>
-        <p>Sekolah Bersih, Hijau, Dengan Lingkungan Sekolah Sehat</p>
-        <p>di Jakarta Pusat</p>
-
-        <p class="daftarkan">Daftarkan Akunmu</p>
-
-     	  <div class="btn-wrapper">
-            <div class="Login">
-            <input type="checkbox" id="show">
-            <label for="show" class="btn show">Daftar Menggunakan Email</label>
-
-            <div class="login-box">
-            <input type="checkbox" id="show">
-            <label for="show" class="login-button">Login</label>
-            </div>
-
-        <div class="kandungan" id="popup">
-            <label for="show"><img src="rectangle-xmark.svg" class="fa-rectangle-xmark"></label>
-            <div class="text">LOGIN</div>
+        <div class="container">
+            <h1>WELCOME TO</h1>
+            <h1>SMKN 19 JAKARTA</h1>
+            <p>Sekolah Bersih, Hijau, Dengan Lingkungan Sekolah Sehat</p>
+            <p>di Jakarta Pusat</p>
     
-            <form action="#">
-                <div class="data">
-                    <label> Email atau No. Handphone</label>
-                    <input type="text" required>
-                </div>
-                <div class="data">
-                    <label>Password</label>
-                    <input type="text" required>
-                    <div class="forgot"><a href="#">Forgot Password?</a></div>
-                </div>
-                <div class="btn-login">
-                    <div class="inner"></div>
-                    <button type="submit">Login</button>
+            <p class="daftarkan">Daftarkan Akunmu</p>
+    
+               <div class="btn-wrapper">
+                <div class="Login">
+                <input type="checkbox" id="show">
+                <label for="show" class="btn show">Daftar Menggunakan Email</label>
+    
+                <div class="login-box">
+                <input type="checkbox" id="show">
+                <label for="show" class="login-button">Login</label>
                 </div>
     
-            </form>
-        </div>
-        </div>
-            <p>Atau</p>
-            <a href="https://facebook.com" class="btn facebook">
-                <span class="span-facebook"></span>
-                Daftar Menggunakan Facebook
-            </a>
-    
-            <a href="https://twitter.com" class="btn twitter">
-                <span class="span-twitter"></span>
-                Daftar Menggunakan Twitter
-            </a>
-        </div>
-</body>
-
-<footer>
-    <div class="Homeindex">
-        <h2 class="text">
-        VISI
-        </h2>
-        <p> ”Terwujudnya Sumber Daya Manusia 
-        yang Bertaqwa, Cerdas, Terampil, Unggul dan 
-        Berwawasan Lingkungan.“</p> 
-
-        <h2 class="text">
-        MISI
-        </h2>
-        <ul>
-            <li>Meningkatkan kualitas keimanan, ketaqwaan, dan ahlak mulia.</li>
-            <li>Menumbuhkembangkan semangat berprestasi dan berkompetisi.</li>
-            <li>Menyiapkan siswa yang bermutu sesuai dengan program keahliannya.</li>
-            <li>Meningkatkan profesionalitas dan kompetensi guru dengan mengembangkan 
-            KBM sesuai dengan kebutuhan Dunia Usaha dan Industri.</li>
-            <li>Mewujudkan warga sekolah yang peduli terhadap lingkungan dengan 
-            meningkatkan kualitas 7K (Keamanan, Ketertiban, Kebersihan, Keindahan, 
-            Kerindangan, Keamanan dan Kekeluargaan)</li>
-        </ul>
-        <div class="artikel"> 
-            <h2 class="text">ARTIKEL</h2>
-            <p class="kolom-koran">
-            <span>L</span>orem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Corrupti dolorem suscipit pariatur quas excepturi vero praesentium numquam, 
-            beatae itaque hic similique nam accusamus, cupiditate qui distinctio voluptatibus, 
-            perferendis officia iste!
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Corrupti dolorem suscipit pariatur quas excepturi vero praesentium numquam, 
-            beatae itaque hic similique nam accusamus, cupiditate qui distinctio voluptatibus, 
-            perferendis officia iste!
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Corrupti dolorem suscipit pariatur quas excepturi vero praesentium numquam, 
-            beatae itaque hic similique nam accusamus, cupiditate qui distinctio voluptatibus, 
-            perferendis officia iste!
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Corrupti dolorem suscipit pariatur quas excepturi vero praesentium numquam, 
-            beatae itaque hic similique nam accusamus, cupiditate qui distinctio voluptatibus, 
-            perferendis officia iste!
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Corrupti dolorem suscipit pariatur quas excepturi vero praesentium numquam, 
-            beatae itaque hic similique nam accusamus, cupiditate qui distinctio voluptatibus, 
-            perferendis officia iste!
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Corrupti dolorem suscipit pariatur quas excepturi vero praesentium numquam, 
-            beatae itaque hic similique nam accusamus, cupiditate qui distinctio voluptatibus, 
-            perferendis officia iste!
-            </p>
-        </div>
-        <div class="contact-form">
-            <h2 class="titlekontak">Hubungi Kami</h2>
-            <p>Email</p>
-            <!-- Tag Input -->
-            <input>
-            <p>Pesan</p>
-            <!-- Tag Text Area -->
-            <textarea></textarea>
-            <p>Kelas</p>
-            <select>
-                <option>XII - MM</option>
-                <option>XII - BDP</option>
-                <option>XII - AKL 1</option>
-                <option>XII - AKL 2</option>
-                <option>XII - OTKP 1</option>
-                <option>XII - OTKP 2</option>
-            </select>
-            <p>Bidang</p>
-            <textarea></textarea>
-            </input>
-            <p><a href="#" class="submit">Kirim</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="navbar">
-        <img src="LOGO PANDAWA.png" class="LOGO-PANDAWA">
-        <a class="LOGO"> SMKN 19 JAKARTA </a>
-
-        <ul class="menu">
-        <li><a href="#"> Mengenai </a></li>
-        <li><a href="#"> Directory </a></li>
-        <li><a href="#"> Selengkapnya </a></li>
-        </ul>
+            <div class="kandungan" id="popup">
+                <label for="show"><img src="rectangle-xmark.svg" class="fa-rectangle-xmark"></label>
+                <div class="text">LOGIN</div>
         
-      </div>
-      <div class="footer">
-          Jl. Danau Limboto No.11, RT.21/RW.4, Bend. Hilir, Kecamatan Tanah Abang, 
-          Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10210
-      </div>
+                <form action="#">
+                    <div class="data">
+                        <label> Email atau No. Handphone</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="data">
+                        <label>Password</label>
+                        <input type="text" required>
+                        <div class="forgot"><a href="#">Forgot Password?</a></div>
+                    </div>
+                    <div class="btn-login">
+                        <div class="inner"></div>
+                        <button type="submit">Login</button>
+                    </div>
+        
+                </form>
+            </div>
+            </div>
+                <p>Atau</p>
+                <a href="https://facebook.com" class="btn facebook">
+                    <span class="span-facebook"></span>
+                    Daftar Menggunakan Facebook
+                </a>
+        
+                <a href="https://twitter.com" class="btn twitter">
+                    <span class="span-twitter"></span>
+                    Daftar Menggunakan Twitter
+                </a>
+            </div>
+</body>
+    
+    <footer>
+        <div class="Homeindex">
+            <h2 class="text">
+            VISI
+            </h2>
+            <p> ”Terwujudnya Sumber Daya Manusia 
+            yang Bertaqwa, Cerdas, Terampil, Unggul dan 
+            Berwawasan Lingkungan.“</p> 
+    
+            <h2 class="text">
+            MISI
+            </h2>
+            <ul>
+                <li>Meningkatkan kualitas keimanan, ketaqwaan, dan ahlak mulia.</li>
+                <li>Menumbuhkembangkan semangat berprestasi dan berkompetisi.</li>
+                <li>Menyiapkan siswa yang bermutu sesuai dengan program keahliannya.</li>
+                <li>Meningkatkan profesionalitas dan kompetensi guru dengan mengembangkan 
+                KBM sesuai dengan kebutuhan Dunia Usaha dan Industri.</li>
+                <li>Mewujudkan warga sekolah yang peduli terhadap lingkungan dengan 
+                meningkatkan kualitas 7K (Keamanan, Ketertiban, Kebersihan, Keindahan, 
+                Kerindangan, Keamanan dan Kekeluargaan)</li>
+            </ul>
+            <div class="artikel"> 
+                <h2 class="text">ARTIKEL</h2>
+                <p class="kolom-koran">
+                <span>L</span>orem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Corrupti dolorem suscipit pariatur quas excepturi vero praesentium numquam, 
+                beatae itaque hic similique nam accusamus, cupiditate qui distinctio voluptatibus, 
+                perferendis officia iste!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Corrupti dolorem suscipit pariatur quas excepturi vero praesentium numquam, 
+                beatae itaque hic similique nam accusamus, cupiditate qui distinctio voluptatibus, 
+                perferendis officia iste!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Corrupti dolorem suscipit pariatur quas excepturi vero praesentium numquam, 
+                beatae itaque hic similique nam accusamus, cupiditate qui distinctio voluptatibus, 
+                perferendis officia iste!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Corrupti dolorem suscipit pariatur quas excepturi vero praesentium numquam, 
+                beatae itaque hic similique nam accusamus, cupiditate qui distinctio voluptatibus, 
+                perferendis officia iste!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Corrupti dolorem suscipit pariatur quas excepturi vero praesentium numquam, 
+                beatae itaque hic similique nam accusamus, cupiditate qui distinctio voluptatibus, 
+                perferendis officia iste!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Corrupti dolorem suscipit pariatur quas excepturi vero praesentium numquam, 
+                beatae itaque hic similique nam accusamus, cupiditate qui distinctio voluptatibus, 
+                perferendis officia iste!
+                </p>
+            </div>
+            <div class="contact-form">
+                <h2 class="titlekontak">Hubungi Kami</h2>
+                <p>Email</p>
+                <!-- Tag Input -->
+                <input>
+                <p>Pesan</p>
+                <!-- Tag Text Area -->
+                <textarea></textarea>
+                <p>Kelas</p>
+                <select>
+                    <option>XII - MM</option>
+                    <option>XII - BDP</option>
+                    <option>XII - AKL 1</option>
+                    <option>XII - AKL 2</option>
+                    <option>XII - OTKP 1</option>
+                    <option>XII - OTKP 2</option>
+                </select>
+                <p>Bidang</p>
+                <textarea></textarea>
+                </input>
+                <p><a href="#" class="submit">Kirim</a></p>
+            </div>
+          </div>
+        </div>
+          <div class="footer">
+              Jl. Danau Limboto No.11, RT.21/RW.4, Bend. Hilir, Kecamatan Tanah Abang, 
+              Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10210
+          </div>
+    
+    </footer>
 
-</footer>
 </html>
