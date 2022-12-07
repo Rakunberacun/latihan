@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-img{
-    size: 100%;
-}
 
 footer{
     font-family: 'Montserrat', sans-serif;
+    background-color: rgb(130, 12, 12);
 }
     body {
         margin: 0;
@@ -152,14 +150,33 @@ footer{
         .header .menu-icon {
           display: none;
         }
+        .Homeindex{
+          margin-top: 100px;
+        }
+        .containerfoto .box{
+          flex-direction: row ; 
+      }
+    .containerfoto .box-img{
+      width: 32.5%;;
+    }
+      
        
       }
 
       @media (max-width: 767px) {
+        .Homeindex{
+          margin-top: 0px;
+        }
         .foto{
           clear: none;
           size: 0px;
           display: none;
+        }
+        .containerfoto .box{
+          flex-direction: column ; 
+        }
+        .containerfoto .box-img{
+          width: 100%;;
         }
     }
     .LOGO{
@@ -230,13 +247,13 @@ footer{
        display: none;
     }
     .kandungan{
-       position: absolute;
+       position:absolute;
        top: 80%;
        left: 50%;
        transform: translate(-50%, -50%);
        background: #ffffff;
-       width: 410px;
-       padding: 30px;
+       width: 300px;
+       padding: 35px;
        font-family: 'Montserrat', sans-serif;
        box-shadow: 0 0 50px rgb(116, 116, 116);
        border-radius: 25px;
@@ -342,7 +359,7 @@ footer{
         font-family: 'Montserrat', sans-serif;
         color: white;
         padding: 2% 0 4% 0;
-        margin-top: 0px;
+        
         align-items: center;
         text-align: left;
         padding: 10px;  
@@ -367,7 +384,7 @@ footer{
         border-style: solid;
         border-radius: 40px;
         padding: 10px;
-        margin-right: 10px;
+        margin-right: 0px;
     }
     .artikel{
         padding-left: 10px;
@@ -399,6 +416,7 @@ footer{
         margin-bottom: 10px;
         font-family: 'Montserrat', sans-serif;
         color: white;
+        
         
     }
     .submit{
@@ -472,22 +490,24 @@ footer{
 }
 .containerfoto{
     margin:50px 40px 0 40px;
+    
 }
 
 .containerfoto .box{
     display: flex;
-    flex-direction: row ;
     justify-content: space-between; 
+    
 }
 
 .containerfoto .box-img{
     display: flex;
     flex-direction: column;
-    width: 32.5%;
+    
 }
 
-.containerfoto .box .box-img .img{
+.containerfoto .box .box-img img{
     padding-bottom: 15px;
+    
 
 }
 .img:hover{
@@ -496,4 +516,10 @@ footer{
 }
 .googlemaps{
     padding-bottom: 40px;
+}
+
+/* Untuk jurusan */
+ .mid .img {
+  height: 50px;
+  padding-top: 20px;
 }
