@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  
+img{
+    size: 100%;
+}
+
+body {
+    background-color: rgb(130, 12, 12);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-evenly; */
+    padding: 0 0px 0 0px ; 
+    background-color:  #07452a;
+    height: 40px;
+    align-items: center ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 10px 0 60% ; 
+    background-color:  #07452a;
+    height: 40px;
+    align-items: center ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+     font-size: larger;
+    color: white;
+    float: right;
+    margin-left: 0px;
+    list-style-type: none;
+}
+.menu a:hover{
+    text-decoration: underline;
+    color: yellow ;
+    position:relative;
+    top:-5px;
+}
+.LOGO-PANDAWA{
+    width: 2%;  
+}
+.LOGO{
+    font-size: 10pt;
+    font-weight: 900;
+}
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 100;
+}
+
+.top-wrapper {
+    /* padding: 1080px 0 100px 0; */
+    background-image: url(pdw\ blur.png);
+    background-size: 50%;
+    background-size: cover;
+    /* border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px; */
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    
+}
+.top-wrapper h1 {
+    font-size: 70px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+}
+.top-wrapper p {
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.daftarkan{
+    font-size: 50px;
+    /* margin-bottom: 6px; */
+    padding-bottom: 10px;
+}
+input[type="checkbox"]{
+   display: none;
+}
+.kandungan{
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: #ffffff;
+   width: 410px;
+   padding: 30px;
+   font-family: 'Montserrat', sans-serif;
+   box-shadow: 0 0 50px rgb(116, 116, 116);
+   border-radius: 25px;
+   display: none;
+   color: black;
+  }
+  #show:checked ~ .kandungan{
+   display: block;
+  }
+
+  .fa-rectangle-xmark{
+   position: absolute;
+   right: 10px;
+   top: 10px;
+   height: 25px;
+   cursor: pointer;
+   
+  }
+  .fa-rectangle-xmark:hover{
+   color: rgb(158, 147, 147);
+  }
+.text {
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 20pt;
+font-style: normal;
+}
+.Login form .data {
+   height: 45px;
+   width: 100%;
+   margin: 40px 0;
+   font-family: 'Montserrat', sans-serif;
+}
+form .data label{
+   font-size: 20px;
+   font-weight: 600;
+}
+.forgot{
+   color: aqua;
+   font-size: medium;
+   text-decoration: underline;
+}
+form .data input{
+   height: 100%;
+   width: 100%;
+   font-size: 25px;
+}
+
+form .btn-login{
+   text-align: center;
+   width: 100%;
+   position: relative;
+   font-family: 'Montserrat', sans-serif;
+   height: 100%;
+   padding-top: 70px;
+}
+.btn .kandungan{
+   color: black;
+}
+.btn-wrapper {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 0px 4px;
+    border-radius: 4px;
+	
+}
+.btn-wrapper p{
+    margin-bottom: 10px;
+}
+.btn {
+    background-color: rgb(130, 12, 12);
+    border-radius: 20px;
+    padding: 6px;
+	 box-shadow: 0 6px rgb(100, 4, 12);
+	 transition: 0.4s;   
+     margin-right: 10px;
+     display: inline-block;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn:hover {
+    background-color: red;
+}
+.btn:active {
+	 box-shadow: 0 2px rgb(70, 3, 8);
+     transform: translateY(4px);
+}
+.Home{
+    background-color: rgb(130, 12, 12);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 2% 0 4% 0;
+    margin-top: 10px;
+    align-items: center;
+    text-align: left;
+    padding: 10px;  
+}
+.Homeindex{
+    background-color: rgb(130, 12, 12);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 2% 0 4% 0;
+    margin-top: 70px;
+    align-items: center;
+    text-align: left;
+    padding: 10px;  
+}
+.Home p {
+    font-weight: 500;
+    padding-left: 15px;
+}
+.Home li {
+    font-weight: 500;
+}
+.Homeindex p {
+    font-weight: 500;
+    padding-left: 15px;
+}
+.Homeindex li {
+    font-weight: 500;
+}
+.text{
+    margin: 10px;
+    border: white;
+    border-style: solid;
+    border-radius: 40px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.artikel{
+    padding-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.artikel-teks{
+    margin: 0px;
+    padding: 10px;
+    font-weight: 700;
+    border: white;
+    border-style: solid;
+    border-radius: 40px;
+}
+.titlekontak{
+    margin: 0px;
+    border: white;
+    border-style: none none solid none;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.contact-form{
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+}
+.submit{
+    background-color: whitesmoke;
+    color: black;
+    border-style: solid;
+    border-color: whitesmoke;
+    padding: 6px;
+    border-width: 0;
+    
+}
+.kolom-koran{
+    -webkit-column-count: 3;
+    column-count: 3;
+    padding-left: 10px;
+}
+.kolom-koran span{
+    font-size: 50px;
+    font-weight: 700;
+}
+.footer{
+    background-color: #07452a   ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.login-box{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 20px 40px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #07452a;
+    opacity: 0.8;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-box:hover{
+    transition: 0.2s;
+    opacity: 1;
+    background-color: #239664;
+}
+/* Untuk Profil */
+.foto{
+    width: 1010px;
+    float: right;
+    padding-right: 20px;
+}
+.googlemaps {
+    margin-left: 20px;
+}
+
+/* Untuk Galeri */
+.title{
+    margin: 0px;
+    border: white;
+    border-style: none none solid none;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.containerfoto{
+    margin:50px 40px 0 40px;
+}
+
+.containerfoto .box{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between; 
+}
+
+.containerfoto .box-img{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.containerfoto .box .box-img .img{
+    padding-bottom: 15px;
+
+}
+.img:hover{
+    position:relative;
+    top:-6px;
+}
+.googlemaps{
+    padding-bottom: 40px;
+}
